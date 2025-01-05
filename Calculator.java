@@ -244,7 +244,7 @@ class MyScreen  {
              bclr.setFont(new Font("Arial", Font.BOLD, 20));
              bclr.addActionListener(new ActionListener() {
                  public void actionPerformed(ActionEvent e) {
-                     t1.setText("");
+                     t1.setText(t1.getText()+"="+setText(toString(c));
                  }
              });
          }
